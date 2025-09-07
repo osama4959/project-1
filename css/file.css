@@ -1,0 +1,263 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+.home{
+background-image: url(../img/background.jpg);
+height: 100vh;
+background-size: 100% 100%;
+}
+
+
+.top-logo img{
+
+
+   width: 13%;
+    float: left;
+    margin:10px 50px ;
+}
+
+.top-link ul{
+
+   
+    float: right;
+    color: white;
+    margin-top: 10px;
+     list-style-type: none;
+
+}
+.top-link li{
+float: left;
+padding: 15px;
+margin-right: 30px;
+
+font-size: larger;
+
+}
+
+.top-link li a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    
+}
+
+
+
+
+.clear-fix{
+    clear: both;
+}
+
+
+
+
+.home-bottom{
+  
+    text-align: center;
+    color: white;
+    padding: 100px;
+    margin: 50px 0;
+}
+
+
+.btn-one{
+padding: 17px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    margin: 20px 5px;
+    background-color: rgb(145, 117, 81);
+    border-width: 0;
+}
+
+.btn-tow{
+padding: 17px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    margin: 20px 5px;
+    background-color: transparent;
+    border: white 2px solid;
+   
+
+}
+
+.home-bottom p{
+
+    font-size: 23px;
+    margin: 30px;
+
+}
+
+
+.home-bottom h1{
+font-size: 50px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden; /* عشان يمنع مشاكل الـ float */
+  padding: 20px;
+    margin-top: 50px;
+}
+
+/* الكلام */
+.about-word {
+  width: 35%;
+  float: right;      /* يخلي الكلام على اليمين */
+  margin-right: 200px; /* تزود أو تقلل المسافة من اليمين */
+  background-color: #fff;
+  text-align: center;
+  height: 100%;
+ 
+}
+
+/* الصورة */
+.about-img img {
+  width: 35%;
+  float: left;       /* يخلي الصورة على الشمال */
+  margin-left: 50px; /* مسافة من الشمال */
+}
+  
+/* تعديل على حجم الخط */
+.about-word h1 {
+font-size: xx-large;
+font-family: sans-serif;
+}
+.about-word p {
+
+    font-size:large ;
+font-family:  sans-serif;
+color: gray;
+}
+
+/* تعديل علي اللسته */
+.list{
+
+text-align: left;
+color: gray;
+font-family: sans-serif;
+margin-right: 100px;
+
+
+}
+
+
+.offer{
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    margin-top: 50px;
+     overflow: hidden;
+}
+/* تعديل علي العنوان التاني */
+.offer h2{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    margin: 0 200px;
+}
+
+.offer p{
+background-color: rgb(255, 255, 255);
+width: 50%;
+
+margin: 50px 100px;
+font-size: large;
+color: gray;
+
+
+}
+
+.offer .p-one{
+background-color: rgb(255, 255, 255);
+
+
+}
+.offer .offer-img img{
+    width: 35%;
+    float: right;
+    margin: 0 100px;
+}
+
+
+
+
+
+
+.gallary{
+
+background-color: rgb(255, 255, 255);
+margin: 100px 0px;
+}
+
+
+.gallary h3{
+background-color: rgb(255, 255, 255);
+text-align: center;
+
+}
+
+
+.gallary p{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+
+/* تعديل علي الصوره الاولي */
+.meals .meal .inner img {
+
+    width: 100%;
+
+}
+
+.meals .meal .inner h4{
+  
+background-color: rgb(255, 255, 255);
+text-align: center;
+}
+
+.meals .meal .inner p{
+
+background-color: rgb(255, 255, 255);
+
+text-align: center;
+color: gray;
+margin: 10px 0;
+
+
+}
+
+
+
+
+.inner{
+
+    width: 25%;
+    text-align: center;
+    margin-left: 75px;
+    float: left;
+  
+}
+

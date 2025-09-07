@@ -1,0 +1,120 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+.content{
+   
+background-image: url(../img/peaky-blinders-3840x2160-18801.jpeg);
+background-size: 100% 100%;
+
+}
+.layer{
+background-color: rgba(0, 0, 0, 0.66);
+height: 100%;
+
+
+}
+
+
+ .word{
+display: flex;
+justify-content: center;
+margin-top: 200px;
+
+ }
+
+.word h1{
+font-size: 60px;
+
+
+}
+
+.details{
+/* background-color: blue; */
+height: 40%;
+
+}
+
+.skill{
+/* background-color: blueviolet; */
+height: 60%;
+}
+
+/* .about-me{
+background-color: teal;
+} */
+
+    .about-me h1{
+text-decoration: underline;
+    }
+.about-me p{
+color: rgb(126, 126, 126);
+
+}
+.progress{
+    background-color: rgba(0, 0, 255, 0.247);
+    width: 80%;
+}
+.paragraf{
+
+    width: 85%;
+}
+
+
+
+
+
+.card-head {
+border: rgba(0, 0, 251, 0.614) solid 10px;
+border-radius: 100%;
+width: 100%;
+
+}
+
+.card-head:hover{
+background-color: blue;
+color: white;
+border: rgb(205, 196, 196) solid 10px;
+    
+}
+
+.container-img{
+background-image: url(../img/counters-bg.jpg);
+background-size: 100% 100%;
+
+}
+
+.layer-2{
+background-color: rgba(24, 163, 218, 0.658);
+
+
+}
+
+.works{
+/* background-color: red; */
+padding-top: 200px;
+
+}
+
+.ring{
+background-color:transparent;
+/* border: solid white 5px; */
+/* border-radius: 75%; */
+
+}
+.card{
+    overflow: hidden;
+}
+
+.card img{
+      transition: transform 0.5s ease; /* عشان الحركة تبقى ناعمة */
+overflow: hidden;
+}
+.card:hover img{
+
+  transform: scale(1.2); /* تكبير */
+
+}

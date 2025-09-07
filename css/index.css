@@ -1,0 +1,634 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body {
+  font-family: 'Epunda Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* the start in header */
+.Home{
+background-image:url(../img/intro-bg.jpg) ;
+background-size: 100% 100%;
+}
+.layer{
+background-color: rgba(0, 0, 0, 0.769);
+
+}
+
+.Home-content{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+
+
+.Home-content h1::after {
+
+    content: "";
+    animation: osama infinite alternate 7s;
+    -webkit-animation: osama infinite alternate 7s;
+}
+
+
+
+@keyframes osama {
+  0% {
+    content: "Free";
+  }
+  2% {
+    content: "Fre|";
+  }
+  4% {
+    content: "Fr";
+  }
+  6% {
+    content: "F";
+  }
+  8% {
+    content: "|";
+  }
+  10% {
+    content: "";
+  }
+  12% {
+    content: "S|";
+  }
+  14% {
+    content: "Se";
+  }
+  16% {
+    content: "Sen|";
+  }
+  18% {
+    content: "Seni";
+  }
+  20% {
+    content: "Senio|";
+  }
+  22% {
+    content: "Senior";
+  }
+  24% {
+    content: "Senior |";
+  }
+  26% {
+    content: "Senior F";
+  }
+  28% {
+    content: "Senior Fr|";
+  }
+  30% {
+    content: "Senior Fro";
+  }
+  32% {
+    content: "Senior Fron|";
+  }
+  34% {
+    content: "Senior Front";
+  }
+
+  36% {
+    content: "Senior Front |";
+  }
+  38% {
+    content: "Senior Front e";
+  }
+  40% {
+    content: "Senior Front en|";
+  }
+  42% {
+    content: "Senior Front end";
+  }
+  44% {
+    content: "Senior Front|";
+  }
+  46% {
+    content: "Senior Fron";
+  }
+  48% {
+    content: "Senior Fro|";
+  }
+  50% {
+    content: "Senior Fr";
+  }
+  52% {
+    content: "Senior F|";
+  }
+  54% {
+    content: "Senior ";
+  }
+  56% {
+    content: "Senior|";
+  }
+  58% {
+    content: "";
+  }
+  60% {
+    content: "O|";
+  }
+  62% {
+    content: "OS";
+  }
+  64% {
+    content: "OSA|";
+  }
+  66% {
+    content: "OSAM";
+  }
+  68% {
+    content: "OSAMA|";
+  }
+  70% {
+    content: "OSAMAO";
+  }
+  72% {
+    content: "OSAMAOM|";
+  }
+  74% {
+    content: "OSAMAOMR";
+  }
+  76% {
+    content: "OSAMAOMRA|";
+  }
+  78% {
+    content: "OSAMAOMRAN";
+  }
+  80% {
+    content: "|";
+  }
+  82% {
+    content: "OSAMAOMRA";
+  }
+  84% {
+    content: "OSAMAOMR|";
+  }
+  86% {
+    content: "OSAMAOM";
+  }
+  88% {
+    content: "OSAMAO|";
+  }
+  90% {
+    content: "OSAMA";
+  }
+  92% {
+    content: "OSAM|";
+  }
+  94% {
+    content: "OSA";
+  }
+  96% {
+    content: "OS|";
+  }
+  98% {
+    content: "OS";
+  }
+  100% {
+    content: "O|";
+  }
+}
+
+/* the end in header */
+/* the start this section about me */
+
+.name{
+font-weight: lighter;
+text-decoration: none;
+}
+
+
+:root {
+    --main-color: #20c997;
+    --secondray-color: #4c4d4d;
+}
+.about-section-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+@media screen and (max-width: 700px) {
+    .about-section-head h2::after {
+        display: none;
+    }
+}
+.about-section-head h2::after {
+    content: "ABOUT ME";
+    font-size: 80px;
+    color: #555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/* the end this section about me */
+/*the start this section service  */
+:root {
+    --main-color: #20c997;
+    --secondray-color: #4c4d4d;
+}
+.services-head h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.services-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.services-head h2::after {
+    content: "SERVICES";
+    font-size: 80px;
+    color: rgb(85, 85, 85);
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+    .services-head h2::after {
+        display: none;
+    }
+}
+
+.skill-icon i {
+    background-color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.skill-icon {
+    width: 15%;
+    color: var(--main-color);
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.icon:hover{
+  color: red;
+}
+/* the end this section service */
+/* the start this section summaery */
+.Resume-head h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.Resume-head h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.Resume-head h2::after {
+    content: "SUMMAERY";
+    font-size: 80px;
+    color: rgb(85, 85, 85);
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+    .Resume-head h2::after {
+        display: none;
+    }
+}
+
+.resume-exp p:nth-child(1) {
+    background-color: var(--main-color);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}
+
+.progress-bar{
+  background-color: #20c997;
+}
+
+/* the end  this section summaery */
+/* the start this section  protfolio*/
+.MY-Work-head  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.MY-Work-head  h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.MY-Work-head h2::after {
+    content: "PROTFOLIO";
+    font-size: 80px;
+    color: rgb(85, 85, 85);
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+    .MY-Work-head  h2::after {
+        display: none;
+    }
+}
+
+
+
+
+/* /* اللون العادي */
+.the-nav-tabs .nav-link {
+  color: #000000;        
+  font-weight: 500;   /* يخلي الخط سميك شوية */
+  transition: all 0.3s ease; /* يخلي التأثير ناعم */
+}
+
+/* لون عند الهوفر */
+.the-nav-tabs .nav-link:hover {
+  color:#20c997;     /* اللون الأزرق (ممكن تختار أي لون تاني) */
+  text-decoration: underline; 
+}
+
+/* الزرار النشط (المختار) */
+.the-nav-tabs .nav-link.active {
+  color: #fff;        /* لون النص */
+  background-color: #20c997; /* لون الخلفية */
+  border-radius: 20px; /* يخليها زرار مدور */
+  text-decoration: underline;
+}
+ 
+
+
+.first-img img {
+  transition: transform 0.3s ease;
+  
+}
+.first-img:hover img {
+ transform: scale(1.1);
+ 
+}
+.sec-img img {
+  transition: transform 0.3s ease;
+  
+}
+.sec-img:hover img {
+ transform: scale(1.1);
+ 
+}
+.third-img img {
+  transition: transform 0.3s ease;
+  
+}
+.third-img:hover img {
+ transform: scale(1.1);
+ 
+}
+.forth-img img {
+  transition: transform 0.3s ease;
+  
+}
+.forth-img:hover img {
+ transform: scale(1.1);
+ 
+}
+.five-img img {
+  transition: transform 0.3s ease;
+  
+}
+.five-img:hover img {
+ transform: scale(1.1);
+ 
+}
+.six-img img {
+  transition: transform 0.3s ease;
+  
+}
+.six-img:hover img {
+ transform: scale(1.1);
+ 
+}
+.seven-img img {
+  transition: transform 0.3s ease;
+  
+}
+.seven-img:hover img {
+ transform: scale(1.1);
+ 
+}
+
+/* the end in this section protfolio */
+
+/* the start in this section Client Speak */
+.Client-Speak-head  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.Client-Speak-head  h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.Client-Speak-head h2::after {
+    content: "TESTIMONIAL";
+    font-size: 80px;
+    color: rgb(85, 85, 85);
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+    .Client-Speak-head  h2::after {
+        display: none;
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color:#20c99698; 
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  background-color: #20c997; 
+  width: 14px;
+  height: 14px;
+}
+
+/* the end of this section client speeeak */
+/* the start of the section contact */
+.contact-head  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.contact-head  h2::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+
+.contact-head h2::after {
+    content: "CONTACT";
+    font-size: 80px;
+    color: rgb(85, 85, 85);
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+    .contact-head  h2::after {
+        display: none;
+    }
+}
+
+
+
+/* .address{
+  background-color: red;
+} */
+.iconns p i{
+color: #20c997;
+padding-right: 30px;
+}
+
+/* .send{
+  background-color: aqua;
+} */
+
+.simone{
+  color: #20c997;
+}
+.simone:hover{
+color: white;
+
+}
+
+.said{
+  background-color: red;
+}
