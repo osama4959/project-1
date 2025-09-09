@@ -14,8 +14,14 @@ body {
 
 /* the start in header */
 .Home{
-background-image:url(../img/intro-bg.jpg) ;
-background-size: 100% 100%;
+    background-image: 
+linear-gradient( rgba(0,0,0,0.5) ,  
+rgba(0,0,0,0.5) 
+),
+url(../img/intro-bg.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
 }
 .layer{
 background-color: rgba(0, 0, 0, 0.769);
@@ -38,6 +44,10 @@ position: relative;
     content: "";
     animation: osama infinite alternate 7s;
     -webkit-animation: osama infinite alternate 7s;
+}
+
+.nav-link:hover{
+color: #20c997 !important;
 }
 
 
